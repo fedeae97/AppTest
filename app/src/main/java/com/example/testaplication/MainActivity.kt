@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         btnMostrar.setOnClickListener{
 
-            var calcularPeso1=(pesoIngresasdo.text.toString().toInt()*8)
+            var calcularPeso1=(pesoIngresasdo.text.toString().toInt()*10)
             /*if (calcularPeso1 == 1) { */
            /*    val intent= Intent(this, MainActivity2::class.java).apply {
                    putExtra("Titulo", calcularPeso1)
